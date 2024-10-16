@@ -1,0 +1,28 @@
+body{
+  background-color: burlywood;
+}
+.with-sidebar {
+    display: flex;
+    flex-wrap:wrap;
+    flex-direction: row-reverse;
+  }
+  
+  .sidebar {
+    flex-basis: 20rem;
+    flex-grow: 1;
+  }
+  
+  .not-sidebar {
+    flex-basis: 0;
+    flex-grow: 999;
+    
+  }
+  header{
+    border-color: rgb(221, 162, 89);
+    border-width: 1ch;
+    border-style:solid
+  }
+  img{
+    width: 100%;
+    max-width: 100%;
+  }
